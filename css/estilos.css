@@ -1,0 +1,203 @@
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body, .navbar{
+    background-color: #e3f2fd !important;
+    
+}
+
+h1,.navbar, button, .desarrollador{
+     font-family: 'Oswald'; 
+}
+
+.nav1,.nav2,.nav3,.nav4,.nav5{
+    /* animation-duration: 4s; */
+    animation-delay: 1s; 
+    
+}
+
+.lista {
+    list-style-image: url(img/principal/icon.ico) !important;
+    
+
+}
+/* 
+.cont-galeria{
+    
+    border-radius: 10px;
+    border: 1px solid rgba(189, 189, 189, 0.877);
+}  */
+
+/* body,.navbar, .imagenprincipal{
+    visibility: hidden;
+} */
+
+
+.fab{
+    margin-right: 50px;    
+}
+
+.logoface,.logoinsta{
+    height: 15%;
+    width: 15%;
+}
+
+.menu{
+    padding: 0px 0px 0px 10px;
+}
+.navbar, .quienessomos, .productos,.futurosproyectos,.imagenprincipal,.contacto,.productoTinaja,.galeria,.redessociales{
+    border-bottom: 1px solid black;
+}
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel{
+    height:500px;
+    width:700px;
+}
+
+.item {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+  }
+  
+.carousel-inner img {
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.container-menu{
+    background-color: #9e3030;
+}
+
+
+h1,p,a,i,.navbar-toggler, .collapse{
+    /*color: #9e3030 !important;*/
+
+    color: black !important;
+    
+}
+
+ p{
+    font-size: 20px;
+    
+    /* font-variant: small-caps;  */
+    
+} 
+
+a{
+    font-size:20px;
+    text-decoration:none !important;
+}
+
+button{
+    font-size:40px;
+    text-decoration:none !important;
+}
+
+a:hover{
+    color: #9e3030 !important;
+    font-weight: bold;  
+}
+
+
+ .logo-navbar:hover{
+    height:55px;
+    width:55px;
+} 
+
+
+
+
+
+  /* li{
+    list-style: none;
+    font-variant: small-caps;
+    font-size: 22px;
+}   */
+
+ .imagengaleria{
+    width: autopx;    
+    height: autopx;
+    /* border: 4px solid rgba(189, 189, 189, 0.877); */
+    /* border: 4px solid;  */
+}  
+
+.imagengaleria:hover{
+    /* border: 6px solid rgba(189, 189, 189, 0.877); */
+    border: 6px solid #e3f2fd ; 
+
+}
+
+.colgaleria{
+    padding-bottom:30px;
+    
+}
+
+.header{
+    height: 150px;
+}
+
+.container-fluid{
+    background-color:black;
+    height: 2px;    
+}
+
+
+.iconosnav { 
+       flex-direction: row;
+}
+
+
+.imagenprincipal{
+
+    height: auto;
+    width: auto;
+    
+}
+
+.duracion-2s{
+    animation-duration: 2s !important;
+}
+
+.delay100ms{
+    animation-delay: 100ms !important;
+}
+
+.delay200ms{
+    animation-delay: 200ms !important;
+}
+.delay350ms{
+    animation-delay: 350ms !important;
+}
+.delay400ms{
+    animation-delay: 400ms !important;
+}
+
+.delay600ms{
+    animation-delay: 600ms !important;
+}
+
+.delay850ms{
+    animation-delay: 850ms !important;
+}
